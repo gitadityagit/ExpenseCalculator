@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Expense Calculator</title>
+</head>
+<body>
+    <div class="Navbar bg-primary"><h3 class="my-auto">Expense Calculator</h3></div>
+
+    <div id="textbtn" class="jumbotron container">
+        <h1 id="total">0</h1>
+        Amount:
+        <input id="amount" type="text" onfocus="this.value=''">
+        Description: 
+        <input  id="description" type="text" onfocus="this.value=''">
+        <div class="threeButtons">
+            <button class="btn btn-success" id="addItembtn" >Add Item</button>
+            <button class="btn btn-warning" id="delBtn">Delete</button>
+            <button class="btn btn-danger" id="deleteAll">Delete All</button>
+        </div>
+
+        <ul id="result">
+            
+        </ul>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>

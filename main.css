@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* NAVBAR  START*/
+.Navbar{
+    height: 50px;
+    position: relative;
+    
+}
+
+.Navbar h3{
+    background-color: rgb(83, 187, 83);
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+    margin: 0 auto;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    box-shadow: 0px 0px 20px 0px black;
+    
+}
+/* NAVBAR END*/
+
+
+
+/* PARENT CONTAINER START*/
+#textbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* PARENT CONTAINER END*/
+
+
+
+/* AMOUNT AND DESCRIPTION FIELD START */
+#amount,#description{
+    height: 35px;
+    width: 250px;
+    font-size: 16px;
+    color: rgb(72, 75, 87);
+    border-radius: 4px;
+    border: 1px solid rgb(217, 208, 223);
+}
+#description{
+    margin-bottom: 20px;
+}
+/* AMOUNT AND DESCRIPTION FIELD END */
+
+
+
+/* THREE BUTTONS START */
+.threeButtons{
+    width: 250px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+/* THREE BUTTONS END */
+
+
+
+/* OUTPUT START */
+#result{
+    list-style-type: none;
+}
+.crd{
+    position: relative;
+    height: 50px;
+    width: 280px;
+    border: 1px solid rgb(217, 208, 223);
+    margin:0 auto;
+    border-radius: 4px;
+    display: flex;
+    flex-direction:row;
+}
+#costp{
+    position: absolute;
+    right: 20px;
+    top: 9px;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(121, 124, 138);
+}
+#descp{
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    font-weight: 550;
+    font-size: 14px;
+    color: rgb(72, 75, 87);
+}
+
+#date{
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    color: rgb(121, 124, 138);
+}
+/* OUTPUT END */
+
